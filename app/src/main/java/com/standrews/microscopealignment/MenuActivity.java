@@ -1,4 +1,4 @@
-package com.example.applicationtest;
+package com.standrews.microscopealignment;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.applicationtest"
+    namespace = "com.standrews.microscopealignment"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.applicationtest"
+        applicationId = "com.standrews.microscopealignment"
         minSdk = 21
         targetSdk = 34
         versionCode = 1

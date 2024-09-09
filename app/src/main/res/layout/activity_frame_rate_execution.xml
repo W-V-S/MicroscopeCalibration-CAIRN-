@@ -18,7 +18,7 @@
             android:textColor="#FFFF00"
             android:textSize="24sp" />
 
-        <com.example.applicationtest.LarvaView
+        <com.standrews.microscopealignment.LarvaView
             android:id="@+id/larvaView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

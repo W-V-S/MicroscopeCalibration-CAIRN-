@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GraticuleCalibrationActivity">
+    tools:context="com.standrews.microscopealignment.GraticuleCalibrationActivity">
 
-    <view class="com.example.applicationtest.GraticuleCalibrationActivity$RulerView"
+    <view class="com.standrews.microscopealignment.GraticuleCalibrationActivity$RulerView"
         android:id="@+id/rulerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

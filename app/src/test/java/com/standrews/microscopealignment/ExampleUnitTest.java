@@ -1,4 +1,4 @@
-package com.example.applicationtest;
+package com.standrews.microscopealignment;
 
 import org.junit.Test;
 
