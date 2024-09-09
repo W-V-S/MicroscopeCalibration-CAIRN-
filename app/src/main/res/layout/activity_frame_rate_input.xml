@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrameRateInputActivity">
+
+    <TextView
+        android:id="@+id/frameRateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Input Frame Rate"
+        android:textSize="18sp"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:id="@+id/frameRateInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/frameRateText"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        android:hint="Frame Rate (fps)" />
+
+    <TextView
+        android:id="@+id/maxFramesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/frameRateInput"
+        android:layout_centerHorizontal="true"
+        android:text="Max Frames (Optional)"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/maxFramesInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/maxFramesText"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        android:hint="Max Frames" />
+
+    <Button
+        android:id="@+id/executeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/maxFramesInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Execute" />
+
+    <Button
+        android:id="@+id/returnHomeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="Return to Home" />
+
+</RelativeLayout>
+
+
